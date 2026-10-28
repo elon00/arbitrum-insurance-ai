@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "arbitrum-insurance-ai": {
+      "tools": [
+        {
+          "name": "evaluate_smart_account_risk",
+          "description": "Evaluates ERC-4337 smart account exploit vulnerability and calculates premium",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "account_address": {
+                "type": "string"
+              },
+              "portfolio_value_eth": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "account_address",
+              "portfolio_value_eth"
+            ]
+          }
+        },
+        {
+          "name": "sponsor_insurance_claim_userop",
+          "description": "Constructs gasless Paymaster UserOperation to settle verified recovery claim on Arbitrum",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "claimant": {
+                "type": "string"
+              },
+              "compensation_eth": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "claimant",
+              "compensation_eth"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
