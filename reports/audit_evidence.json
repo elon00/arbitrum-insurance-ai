@@ -1,0 +1,10 @@
+{
+  "project": "arbitrum-insurance-ai",
+  "commit_sha": "3d62a4fb57b49b3020f63c19da5f196a13589818",
+  "timestamp": "2026-10-28T07:44:32.744529Z",
+  "score": 100,
+  "theme": "Cross-L2 Smart Account Recovery & Bridge Exploit Coverage Protocol",
+  "blockchain": "Arbitrum Stylus (EVM L2)",
+  "contract": "ArbitrumStylusInsurance.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: arbitrum-insurance-ai ($ARBINS)\n    Chain: Arbitrum Stylus (EVM L2)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (ArbitrumStylusInsurance.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
